@@ -1,9 +1,10 @@
-import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import styles from './App.module.css'
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>My Law Firm App</h1>
+    <div className={styles.container}>
+      <NavBar/>
     </div>
   );
 }

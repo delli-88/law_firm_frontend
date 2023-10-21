@@ -1,0 +1,48 @@
+.navContainer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContent{
+    width: 80%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1rem;
+    background-color: black;
+}
+
+.navbar button{
+    border: none;
+    background-color: black;
+    color: var(--color-white);
+}
+
+.contact button{
+    border: 1px solid var(--color-white)
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.logo p{
+    padding: 1rem;
+}
+
+.contact button{
+    padding: 1rem;
+}
+
+.links button{
+    padding: 0rem 1rem;
+}
