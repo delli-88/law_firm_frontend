@@ -8,6 +8,9 @@
 
 .heroContentContainer{
     width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .heroContent{
@@ -49,6 +52,7 @@
     margin-right: 0.5rem;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .imageContainer{

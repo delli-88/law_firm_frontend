@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    border: 1px solid var(--color-grey);
+    border-radius: 1rem;
+    padding: 1rem
+}
+
+.cardP{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+
+.percent{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.imgContainer{
+    position: relative;
+}
+
+/* .ellipse{
+    position: absolute;
+} */
+
+.gift{
+    position: absolute;
+    left: 20px;
+    top:18px 
+}
+
+.btn{
+    color:  #000;
+    background-color: var(--color-primary);
+    border-radius: 5rem;
+    padding: 1rem;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}

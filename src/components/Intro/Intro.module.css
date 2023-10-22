@@ -1,0 +1,48 @@
+.introContainer{
+    width: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem;
+}
+
+.introContent{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introHeading{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.introDesignation{
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.introPara{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+
+.divider{
+    border-left: 2px solid ;
+    height: 15rem;
+    opacity: 0.3;
+    margin: 2rem 0rem;
+}
+
+.introDiv{
+    width: 50%;
+}
+
+.desigDiv{
+    width: 50%;
+    margin-left: 5rem;
+}

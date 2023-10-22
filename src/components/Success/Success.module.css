@@ -1,0 +1,24 @@
+.successContainer{
+    width: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.successContent{
+    width: 80%;
+}
+
+.whyP{
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 2rem;
+}
