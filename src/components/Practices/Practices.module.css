@@ -1,0 +1,51 @@
+.gridContainer{
+    width: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.gridContent{
+    width: 80%;
+}
+
+.gridHeading{
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%;
+    text-align: center;
+    margin: 2rem;
+}
+
+.imgContainer1, .imgContainer2{
+    overflow: hidden;
+    margin: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    height: 342px;
+}
+
+
+
+.textContainer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.textContainer p{
+    color: #FFFBF2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}

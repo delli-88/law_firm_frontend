@@ -3,6 +3,7 @@ import styles from './App.module.css'
 import HeroSection from './components/HeroSection/HeroSection';
 import Intro from './components/Intro/Intro';
 import Success from './components/Success/Success';
+import Practices from './components/Practices/Practices';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection />
       <Intro />
       <Success />
+      <Practices />
     </div>
   );
 }
