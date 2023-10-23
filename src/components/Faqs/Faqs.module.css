@@ -1,0 +1,82 @@
+.faqsContainer{
+    width: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+}
+
+.faqsContent{
+    width: 80%;
+    position: relative;
+}
+
+.faqsHeader{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 138.023%; /* 74.532px */
+    margin-bottom: 1rem;
+}
+
+.faqBox{
+    display: flex;
+}
+
+.faqBoxSubHead{
+    padding-right: 6rem;
+}
+
+.faqBoxSubHead p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 162.523%; /* 29.254px */
+    opacity: 0.3;
+}
+
+.faqBoxWrapper{
+    width: 50%;
+
+}
+
+.accordionContainer{
+    background-color: var(--color-black);
+}
+
+.accordionWrapper{
+    background-color: var(--color-black);
+
+}
+
+.accordionSummary{
+    background-color: var(--color-black) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+    padding: 1rem !important;
+}
+
+.accordionSummary p{
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.accordionDetails{
+    background-color: var(--color-black);
+    border: none !important;
+}
+
+.accordionDetails p{
+    opacity: 0.3;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 162.523%;
+}
+
+.accordionWrapper button{
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
