@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0rem;
+    margin: 4rem 0rem;
 }
 
 .testimonialsContent{
@@ -38,9 +38,11 @@
 }
 
 .leftNavigation{
-    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
 }
 
 .rightNavigation{
-    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
 }

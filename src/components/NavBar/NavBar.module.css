@@ -33,6 +33,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .logo p{
@@ -41,8 +42,10 @@
 
 .contact button{
     padding: 1rem;
+    cursor: pointer;
 }
 
 .links button{
-    padding: 0rem 1rem;
+    margin: 0rem 1rem;
+    cursor: pointer;
 }

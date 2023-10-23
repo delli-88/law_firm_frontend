@@ -19,7 +19,7 @@ const Faqs = () => {
                     <div className={styles.accordionContainer}>
                     {
                         faqsData.map((faq, idx)=>(
-                            <Accordion className={styles.accordionWrapper} key={idx+1}>
+                            <Accordion className={styles.accordionWrapper} key={idx+1} >
                                 <AccordionSummary
                                 expandIcon={<button>+</button>}
                                 aria-controls={`panel${idx+1}a-content`}

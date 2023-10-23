@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem; 
 }
 
 .subscribeContent{
@@ -47,6 +47,7 @@ input{
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     margin: 0.5rem;
+    cursor: pointer;
 }
 
 .subscribeForm > :first-child {

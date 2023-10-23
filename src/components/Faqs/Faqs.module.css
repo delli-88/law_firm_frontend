@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0rem;
+    margin: 4rem 0rem;
 }
 
 .faqsContent{
@@ -45,7 +45,6 @@
 
 .accordionWrapper{
     background-color: var(--color-black);
-
 }
 
 .accordionSummary{

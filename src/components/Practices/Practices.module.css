@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0rem;
+    margin: 4rem 0rem;
 }
 
 .gridContent{
@@ -17,7 +17,7 @@
     font-weight: 600;
     line-height: 143.023%;
     text-align: center;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .imgContainer1, .imgContainer2{
