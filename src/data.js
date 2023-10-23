@@ -1,6 +1,12 @@
 import JaneCooper from './assets/JaneCooper.svg'
 import DevonLane from './assets/DevonLane.svg'
 import RobertFox from './assets/RobertFox.svg'
+import DanielDef from './assets/DanielDef.svg'
+import Sanfole from './assets/Sanfole.svg'
+import Cesforila from './assets/Cesforila.svg'
+import Colleen from './assets/Colleen.svg'
+import Haldone from './assets/Haldone.svg'
+import NikJeo from './assets/NikJeo.svg'
 
 const testimonialsData = [
     {
@@ -41,4 +47,37 @@ const testimonialsData = [
     }
 ]
 
-export {testimonialsData}
+const teamData = [
+    {
+        image : DanielDef,
+        name : "Danial Def",
+        cases : 301
+    },
+    {
+        image : Sanfole,
+        name : "Sanfole",
+        cases : 850
+    },
+    {
+        image : Cesforila,
+        name : "Cesforila",
+        cases : 470
+    },
+    {
+        image : Colleen,
+        name : "Colleen",
+        cases : 180
+    },
+    {
+        image : Haldone,
+        name : "Haldone",
+        cases : 212
+    },
+    {
+        image : NikJeo,
+        name : "Nik Jeo",
+        cases : 350
+    }
+]
+
+export {testimonialsData, teamData}
