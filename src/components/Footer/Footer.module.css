@@ -1,0 +1,81 @@
+.footerContainer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footerCopyRights{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logo p{
+    padding: 1rem;
+}
+
+.footerLinks button{
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    margin: 0rem 1.5rem;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+.footerImgs img{
+    margin: 0rem 0.5rem;
+    cursor: pointer;
+}
+
+.footerCopyRightsWrapper{
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.footerCopyRightsWrapper button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.3;
+    cursor: pointer;
+    margin: 0rem 1rem;
+}
+
+.footerCopyRightsWrapper  >:first-child{
+    cursor: default;
+}
