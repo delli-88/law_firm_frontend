@@ -7,6 +7,7 @@ import Practices from './components/Practices/Practices';
 import Testimonials from './components/Testimonials/Testimonials';
 import Team from './components/Team/Team';
 import Faqs from './components/Faqs/Faqs';
+import Subscribe from './components/Subscribe/Subscribe';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Testimonials />
       <Team />
       <Faqs />
+      <Subscribe />
     </div>
   );
 }
