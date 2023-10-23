@@ -1,0 +1,13 @@
+.teamContainer{
+    width: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+}
+
+.teamContent{
+    width: 80%;
+    position: relative;
+}

@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid var(--color-grey);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 18.5rem;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-top: 1.5rem;
+}
+
+.desig{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-top: 0.5rem;
+}
+
+.review{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    opacity: 0.3;
+    margin-top: 1.5rem;
+}

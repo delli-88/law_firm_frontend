@@ -1,0 +1,46 @@
+.testimonialsContainer{
+    width: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem;
+}
+
+.testimonialsContent{
+    width: 80%;
+    position: relative;
+}
+
+.textContainer{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    width: 23.5rem;
+    margin-bottom: 5rem;
+}
+
+.arrows{
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    right: 0px;
+    z-index: 1;    
+}
+
+ .wrapper {
+    position: static !important;
+    padding :1rem 0.5rem;
+}
+
+.swiper{
+    position: static !important;
+}
+
+.leftNavigation{
+    padding: 0.5rem;
+}
+
+.rightNavigation{
+    padding: 0.5rem;
+}
